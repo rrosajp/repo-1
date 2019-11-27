@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="service.liveproxy" name="LiveProxy" version="0.1.1" provider-name="back-to">
+<addon id="service.liveproxy" name="LiveProxy" version="0.3.0" provider-name="back-to">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
-    <import addon="script.module.streamlink" version="0.14.2.138"/>
+    <import addon="script.module.streamlink" version="1.3.0"/>
     <import addon="script.module.back-to-plugins" version="2018.7.18" optional="true"/>
     <import addon="script.module.streamlink-plugins" version="0.0.0" optional="true"/>
   </requires>
@@ -20,6 +20,14 @@
       <icon>resources/icon.png</icon>
     </assets>
     <news>
+0.3.0
+- New command `--file-output`
+- requiere Streamlink version 1.1.1
+- Dropped support for Python 3.4
+- Removed streamlink_cli mirror files.
+0.2.0
+- requiere Streamlink version 1.0.0
+- fix if the stream quality name is invalid
 0.1.1
 - If --url is used, it will always be used as an URL.
 0.1.0

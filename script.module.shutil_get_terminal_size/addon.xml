@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.shutil_get_terminal_size" name="shutil_get_terminal_size library" version="1.0.0" provider-name="back-to">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>shutil_get_terminal_size library</summary>
+    <license>PSF</license>
+    <source>https://pypi.org/project/backports.shutil_get_terminal_size/</source>
+    <website></website>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
